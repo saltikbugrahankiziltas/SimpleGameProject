@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/shape1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Sayı Tahmin Oyununa Hoşgeldiniz"
+        android:gravity="center|bottom"
+        android:textSize="25sp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        android:text="Bilgilendirme: Oyunumuz 1 ile 10 arasındaki sayıları tahmin etmek üzere ayarlanmıştır. Oyuna geçmek için lütfen butona tıklayınız. Bol şanslar :)"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btn_basla"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginBottom="105dp"
+        android:text="Başla"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn"/>
+
+
+</RelativeLayout>
